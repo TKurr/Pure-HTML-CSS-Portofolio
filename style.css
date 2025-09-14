@@ -15,51 +15,64 @@ body{
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  margin: 0px;
+}
+
+.contain-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
-  width: 100%;
-  height: 80px;
-  background: white;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
-  position: fixed;
-  z-index: 10;
-  border-radius: 0 0 10px 10px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px;   
-  box-sizing: border-box;
-  overflow: hidden;  
+  padding: 0.8rem 2rem;
+  background: white;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.navbar .logo {
-  font-size: xx-large;
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-img {
+  height: 40px;   
+  width: auto;
+  margin-right: 10px;
+}
+
+.logo {
+  font-size: 1.5rem;
   font-weight: bold;
-  color: #256597;
+  color: #1a3d7c;
 }
 
 .nav-links {
-  font-size: larger;
   list-style: none;
   display: flex;
   gap: 40px;
   margin: 0;
-  padding: 0;
-  flex-wrap: wrap;   
-  max-width: 100%;   
 }
 
-.nav-links li a {
+.nav-links a {
   text-decoration: none;
-  color: #256597;
-  font-weight: 600;
-  transition: 0.3s;
+  color: #1a3d7c;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: 20px;
 }
 
-.nav-links li a:hover {
-  color: #9AF34A;
+.nav-links a:hover {
+  color: #2ecc71;
 }
+
 
 .hero {
   height: 100vh;
