@@ -115,7 +115,7 @@ body{
 }
 
 .highlight2{
-  color: #c9f571;
+  color: #408005;
 }
 
 .highlight-blue{
@@ -303,7 +303,7 @@ body{
 
 .experience-card .year {
   font-weight: bold;
-  color: #9AF34A;
+  color: #408005;
   margin: 0 0 10px 0;
 }
 
@@ -311,7 +311,6 @@ body{
   font-size: 15px;
   line-height: 1.4;
 }
-
 
 #contact {
   display: flex;
