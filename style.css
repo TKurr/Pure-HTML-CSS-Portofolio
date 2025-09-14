@@ -114,6 +114,10 @@ body{
   color: #9AF34A;
 }
 
+.highlight2{
+  color: #c9f571;
+}
+
 .highlight-blue{
   color: #256597;
 }
@@ -192,6 +196,10 @@ body{
   margin-bottom: 40px;
 }
 
+.projects h3{
+  color: #143a76; 
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -225,8 +233,7 @@ body{
   width: 100%;
   height: 140px;         
   object-fit: cover;    
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-radius: 15px;
 }
 
 .project-card div {
@@ -259,6 +266,10 @@ body{
 .experience h2 {
   font-size: 32px;
   margin-bottom: 40px;
+}
+
+.experience h3 {
+  color: #143a76; 
 }
 
 .experience-grid {
@@ -343,4 +354,12 @@ body{
 
 .contact-card a:hover {
   text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2d3e50; 
+  color: #f0f0f0;
+  font-size: 0.9rem;
 }
